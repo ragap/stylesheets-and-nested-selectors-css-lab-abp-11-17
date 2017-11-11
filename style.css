@@ -10,17 +10,17 @@ header {height: 100px;
         bottom-border : 1px solid #cccccc
  }
 
-header nav { float: right;  
+header nav { float: right;
 }
 
-header nav ul {}
+nav ul {}
 header nav li ul {}
 header nav a{}
 
 
 ### The `<nav>` `<ul>`
 
-Select the `ul` element by finding it nested under the `nav`. Reset the `ul`'s padding to 0 and give it a top margin of 40px and reset all other margins to `0`. 
+Select the `ul` element by finding it nested under the `nav`. Reset the `ul`'s padding to 0 and give it a top margin of 40px and reset all other margins to `0`.
 You can use a [shorthand `margin` property](https://www.w3schools.com/css/css_margin.asp) for this - `margin: TOP RIGHT BOTTOM LEFT`
 
 ### The `<li>`s inside of `<ul>` inside of `<nav>`
