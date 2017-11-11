@@ -15,7 +15,8 @@ header nav { float: right;
 nav ul {
   padding: 0 ; margin: 40px 0 0 0  ;
 }
-nav li ul {display: inline;
+
+nav ul li {display: inline;
           margin-right: 10px}
 
 nav a{ text-decoration: none;
