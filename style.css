@@ -5,3 +5,34 @@
 body {
   padding: 0 30px 0 30px;
 }
+
+header {height: 100px;
+        bottom-border : 1px solid #cccccc
+ }
+
+header nav { float: right;  
+}
+
+header nav ul {}
+header nav li ul {}
+header nav a{}
+
+
+### The `<nav>` `<ul>`
+
+Select the `ul` element by finding it nested under the `nav`. Reset the `ul`'s padding to 0 and give it a top margin of 40px and reset all other margins to `0`. 
+You can use a [shorthand `margin` property](https://www.w3schools.com/css/css_margin.asp) for this - `margin: TOP RIGHT BOTTOM LEFT`
+
+### The `<li>`s inside of `<ul>` inside of `<nav>`
+
+Select the `li`s with a triple nested selector searching for all `li`s inside a `ul` inside a `nav`. Set the `li` `display` property to inline and add a right margin of `10px`
+
+### The `<a>`s inside of `<nav>`
+
+Select all `a`s inside a `nav` with a nested selector. Remove their `text-decoration`, give them a `color` of `#007bff` and a font-size of `18px`
+header h3 { float: left;font-size: 30px}
+header h3 a {}
+
+### The `<a>` inside `<h3>` inside the `<header>`
+
+Select the `a` with a tripple nested selector and style it with no `text-decoration` and a `color` of `#868e96`.
