@@ -13,7 +13,10 @@ header {height: 100px;
 header nav { float: right;
 }
 
-nav ul {}
+nav ul {
+  padding: 0
+  
+}
 header nav li ul {}
 header nav a{}
 
@@ -31,8 +34,6 @@ Select the `li`s with a triple nested selector searching for all `li`s inside a 
 
 Select all `a`s inside a `nav` with a nested selector. Remove their `text-decoration`, give them a `color` of `#007bff` and a font-size of `18px`
 header h3 { float: left;font-size: 30px}
-header h3 a {}
+h3 a {text-decoration: none; color:#868e96 }
 
-### The `<a>` inside `<h3>` inside the `<header>`
 
-Select the `a` with a tripple nested selector and style it with no `text-decoration` and a `color` of `#868e96`.
