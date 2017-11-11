@@ -19,7 +19,8 @@ nav ul {
 }
 nav li ul {display: inline;
           margin-right: 10px}
-header nav a{}
+
+nav a{}
 
 
 ### The `<nav>` `<ul>`
