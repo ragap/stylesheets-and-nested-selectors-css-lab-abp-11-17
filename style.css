@@ -17,7 +17,8 @@ nav ul {
   padding: 0
 
 }
-nav li ul {}
+nav li ul {display: inline;
+          margin-right: 10px}
 header nav a{}
 
 
@@ -28,7 +29,7 @@ You can use a [shorthand `margin` property](https://www.w3schools.com/css/css_ma
 
 ### The `<li>`s inside of `<ul>` inside of `<nav>`
 
-Select the `li`s with a triple nested selector searching for all `li`s inside a `ul` inside a `nav`. Set the `li` `display` property to inline and add a right margin of `10px`
+Set the `li` `display` property to inline and add a right margin of `10px`
 
 ### The `<a>`s inside of `<nav>`
 
